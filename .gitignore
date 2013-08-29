@@ -1,0 +1,3 @@
+*.swp
+/src/app/log/
+/src/app/tmp/
