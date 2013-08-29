@@ -14,6 +14,7 @@ define('MC_UTILS_ROOT', MC_ROOT . '/utils/');
 define('MC_HANDLERS_ROOT', MC_ROOT . '/handlers/');
 define('MC_MODULE_ROOT', MC_ROOT . '/module/');
 
+define('MC_SMARTY_DIR', MC_ENGINE_ROOT . '/third/Smarty-3.1.5/');
 
 // customized configuration goes here
 define('DOC_ROOT', '/Users/hudamin/docs/linux_shell/');
