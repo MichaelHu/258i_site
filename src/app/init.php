@@ -4,7 +4,7 @@
 define('MC_ENGINE_ROOT', '/Users/hudamin/projects/git/mcphp/src/');
 
 define('MC_ROOT', dirname(__FILE__));
-define('MC_TEMPLATE_DIR', MC_ROOT . '/tpl/scaffold/');
+define('MC_TEMPLATE_DIR', MC_ROOT . '/tpl/com258i/');
 define('MC_DEFAULT_TN', 'index');
 define('MC_TMP_ROOT', MC_ROOT . '/tmp/');
 

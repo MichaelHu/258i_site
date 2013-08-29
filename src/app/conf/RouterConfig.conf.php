@@ -2,10 +2,10 @@
 
 RouterConfig::$patterns = array(
 	'/tn=index/i' => array(
-		'handler' => 'Scaffold_IndexHandler',
+		'handler' => 'Com258i_IndexHandler',
 	), 
 
 	'/.*/' => array(
-		'handler' => 'Scaffold_IndexHandler',
+		'handler' => 'Com258i_IndexHandler',
 	), 
 );
