@@ -13,10 +13,10 @@ ol, ul, li {list-style-image: none; list-style-position: outside; list-style-typ
 #nav, #content{margin:0 auto;}
 
 #header span{color: #000; font: 22px/27px bold; border-bottom:1px solid gray;}
-#header .ltc{height:10px; width:10px; background: url("http://www.258i.com/images/ltc.gif") no-repeat; position:absolute; top:0; left:0;}
-#header .rtc{height:10px; width:10px; background: url("http://www.258i.com/images/rtc.gif") no-repeat; position:absolute; right:0; top:0;}
+#header .ltc{height:10px; width:10px; background: url("../img/ltc.gif") no-repeat; position:absolute; top:0; left:0;}
+#header .rtc{height:10px; width:10px; background: url("../img/rtc.gif") no-repeat; position:absolute; right:0; top:0;}
 #header .bdr{height:44px; border:1px solid #B6C7DB; border-bottom: 3px solid #B6C7DB;}
-#header .cont{height:28px; padding:12px 0 4px 150px; background: url("http://www.258i.com/images/logo.gif") no-repeat 20px 2px;}
+#header .cont{height:28px; padding:12px 0 4px 150px; background: url("../img/logo.gif") no-repeat 20px 2px;}
 #footer a:hover, #footer a:link, #footer a:active, #footer a:visited {color: black; text-decoration: underline;}
 
 .code { background-color: #5BC2FE; padding: 5px 10px; float: left; margin: 5px 0; }

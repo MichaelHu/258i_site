@@ -1,7 +1,12 @@
 <?php
 
 // general configurations
-define('MC_ENGINE_ROOT', '/Users/hudamin/projects/git/mcphp/src/');
+if(!defined('MC_OFFLINE')){
+    define('MC_ENGINE_ROOT', '/home/hdm0571qh2dsm7095i7p1/others/mcphp2/');
+}
+else{
+    define('MC_ENGINE_ROOT', '/Users/hudamin/projects/git/mcphp/src/');
+}
 
 define('MC_ROOT', dirname(__FILE__));
 define('MC_TEMPLATE_DIR', MC_ROOT . '/tpl/com258i/');
@@ -17,7 +22,7 @@ define('MC_MODULE_ROOT', MC_ROOT . '/module/');
 define('MC_SMARTY_DIR', MC_ENGINE_ROOT . '/third/Smarty-3.1.5/');
 
 // customized configuration goes here
-define('DOC_ROOT', '/Users/hudamin/docs/linux_shell/');
+// define('DOC_ROOT', '/Users/hudamin/docs/linux_shell/');
 
 // auto search paths
 $GLOBALS['MC_AUTOLOAD_DIRS'] = array(
