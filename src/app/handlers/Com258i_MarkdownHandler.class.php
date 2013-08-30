@@ -19,11 +19,24 @@ class Com258i_MarkdownHandler extends Com258i_PageHandler{
 	protected function prepareData(){
 		parent::prepareData();
 
+        /*
         $this->appendContent(
-            var_export($this->request->getLogicParams(), true)
+            $this->request->getLogicParams()
         );
+        */
 
-        $db= new mysqli("127.0.0.1", "root", "root", "notes", "3335"); 
+        $this->appendContent(
+            json_encode(
+                $this->getMarkdownArticle(
+                    $this->request->getLogicParam('title')
+                )
+            )
+        );
+	}
+
+    private function getMarkdownArticle($title){
+        // $db= new mysqli("127.0.0.1", "root", "root", "notes", "3335"); 
+        $db= new mysqli("localhost", "hdm0571", "1qa2ws3ed", "hdm0571");
 
         // 解决获取text字段乱码的问题
         $db->query("set Names 'utf8'");
@@ -49,9 +62,7 @@ class Com258i_MarkdownHandler extends Com258i_PageHandler{
             exit(0);
         }
 
-        $this->appendContent(
-            josn_encode($rows_with_context)
-        );
-	}
+        return $rows_with_context;
+    }
 
 }
