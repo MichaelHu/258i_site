@@ -10,11 +10,25 @@
  * pattern: 正则表达式，用于参数有效性检查
  */
 RequestConfig::$logicParams = array(
+
 	'tn' => array(
 		'default'=>'index', 
 		'source'=>'requestParams|tn',
-		'pattern'=>'/^(?:index|othertemplate)$/',
+		'pattern'=>'/^(?:index|markdown)$/',
 	),
+
+	'act' => array(
+		'default'=>'list_articles', 
+		'source'=>'requestParams|list_articles',
+		'pattern'=>'/^(?:list_articles|get_article)$/',
+	),
+
+	'title' => array(
+		'default'=>'', 
+		'source'=>'requestParams|title',
+		'pattern'=>'/^.+$/',
+	),
+
 );
 
 
