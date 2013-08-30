@@ -26,10 +26,8 @@ class Com258i_MarkdownHandler extends Com258i_PageHandler{
         */
 
         $this->appendContent(
-            json_encode(
-                $this->getMarkdownArticle(
-                    $this->request->getLogicParam('title')
-                )
+            $this->getMarkdownArticle(
+                $this->request->getLogicParam('title')
             )
         );
 	}
@@ -62,7 +60,10 @@ class Com258i_MarkdownHandler extends Com258i_PageHandler{
             exit(0);
         }
 
-        return $rows_with_context;
+        return empty($rows_with_context)
+            ? $rows_with_context
+            // 本身已经是JSON string
+            : $rows_with_context[0]['content'];
     }
 
 }
