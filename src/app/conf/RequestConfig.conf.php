@@ -18,14 +18,20 @@ RequestConfig::$logicParams = array(
 	),
 
 	'act' => array(
-		'default'=>'list_articles', 
-		'source'=>'requestParams|list_articles',
+		'default'=>'get_article', 
+		'source'=>'requestParams|act',
 		'pattern'=>'/^(?:list_articles|get_article)$/',
 	),
 
 	'title' => array(
 		'default'=>'', 
 		'source'=>'requestParams|title',
+		'pattern'=>'/^.+$/',
+	),
+
+	'tag' => array(
+		'default'=>'', 
+		'source'=>'requestParams|tag',
 		'pattern'=>'/^.+$/',
 	),
 
