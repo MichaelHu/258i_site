@@ -11,29 +11,95 @@
  */
 RequestConfig::$logicParams = array(
 
+    // 模板参数，必选
 	'tn' => array(
 		'default'=>'index', 
 		'source'=>'requestParams|tn',
-		'pattern'=>'/^(?:index|markdown)$/',
+		'pattern'=>'/^(?:index|markdown|notes)$/',
 	),
 
-	'act' => array(
-		'default'=>'get_article', 
-		'source'=>'requestParams|act',
-		'pattern'=>'/^(?:list_articles|get_article)$/',
-	),
+    // tn=markdown
+    'tn:markdown' => array(
+        'act' => array(
+            'default'=>'get_article', 
+            'source'=>'requestParams|act',
+            'pattern'=>'/^(?:list_articles|get_article)$/',
+        ),
 
-	'title' => array(
-		'default'=>'', 
-		'source'=>'requestParams|title',
-		'pattern'=>'/^.+$/',
-	),
+        'title' => array(
+            'default'=>'', 
+            'source'=>'requestParams|title',
+            'pattern'=>'/^.+$/',
+        ),
 
-	'tag' => array(
-		'default'=>'', 
-		'source'=>'requestParams|tag',
-		'pattern'=>'/^.+$/',
-	),
+        'tag' => array(
+            'default'=>'', 
+            'source'=>'requestParams|tag',
+            'pattern'=>'/^.+$/',
+        ),
+    ),
+
+    // tn=notes
+    'tn:notes' => array(
+        'act' => array(
+            'default'=>'getNotesWithLineNo', 
+            'source'=>'requestParams|act',
+            'pattern'=>'/^(?:'
+                . 'getNotesWithLineNo'
+                . '|' . 'getNotesWithArticleID'
+                . '|' . 'getArticleAbstracts'
+                . '|' . 'searchNotes'
+                . ')$/i',
+        ),
+
+        'key_words' => array(
+            'default'=>'', 
+            'source'=>'requestParams|key_words',
+            'pattern'=>'/^.+$/',
+        ),
+
+        'from' => array(
+            'default'=>'0', 
+            'source'=>'requestParams|from',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'count' => array(
+            'default'=>'50', 
+            'source'=>'requestParams|count',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'from_article_id' => array(
+            'default'=>'1', 
+            'source'=>'requestParams|from_article_id',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'article_id' => array(
+            'default'=>'1', 
+            'source'=>'requestParams|article_id',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'line' => array(
+            'default'=>'1', 
+            'source'=>'requestParams|line',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'direction' => array(
+            'default'=>'1', 
+            'source'=>'requestParams|direction',
+            'pattern'=>'/^\d+$/',
+        ),
+
+        'context_num' => array(
+            'default'=>'25', 
+            'source'=>'requestParams|context_num',
+            'pattern'=>'/^\d+$/',
+        ),
+    ),
 
 );
 

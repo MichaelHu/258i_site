@@ -100,8 +100,14 @@ class Com258i_MarkdownHandler extends Com258i_PageHandler{
     }
 
     private function getDBConnect(){
-        // $db= new mysqli("127.0.0.1", "root", "root", "notes", "3335"); 
-        $db= new mysqli("localhost", "hdm0571", "1qa2ws3ed", "hdm0571");
+
+        if(!defined('MC_OFFLINE')){
+            $db= new mysqli("localhost", "hdm0571", "1qa2ws3ed", "hdm0571");
+        }
+        else{
+            $db= new mysqli("127.0.0.1", "root", "", "notes", "3335"); 
+            // $db= new mysqli("127.0.0.1", "root", "root", "notes", "3335"); 
+        }
 
         // 解决获取text字段乱码的问题
         $db->query("set Names 'utf8'");

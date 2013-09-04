@@ -9,6 +9,10 @@ RouterConfig::$patterns = array(
 		'handler' => 'Com258i_MarkdownHandler',
 	), 
 
+	'/tn=notes/i' => array(
+		'handler' => 'Com258i_NotesHandler',
+	), 
+
 	'/.*/' => array(
 		'handler' => 'Com258i_IndexHandler',
 	), 
