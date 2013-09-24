@@ -2,10 +2,7 @@ CACHE MANIFEST
 
 ../
 ../favicon.ico
-../css/common.css
-../js/base.js
-../js/mctemplate.js
-../json/indexlist.js
+http://www.gravatar.com/avatar/695eb617d04fdfd1c43149e9c76ce178?s=80&d=mm&r=g
 
 NETWORK:
 *
@@ -28,3 +25,4 @@ NETWORK:
 # build_time: 2013/09/02 10:30
 # build_time: 2013/09/02 10:42
 # build_time: 2013/09/02 10:47
+# build_time: 2013/09/24 16:47
