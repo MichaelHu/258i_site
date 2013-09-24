@@ -1,0 +1,654 @@
+{
+
+"Apple & Iphone & Safari": [
+
+    {
+    "title":"Apple Developer Center",
+    "url":"http://developer.apple.com/",
+    "time":"[2010-08-17]"
+    },
+        
+    {
+    "title":"iOS Developer Library",
+    "url":"https://developer.apple.com/library/ios/navigation/index.html",
+    "time":"[2013-04-16]"
+    },
+        
+    {
+    "title":"Safari CSS Reference",
+    "url":"https://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariCSSRef/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW1",
+    "time":"[2010-08-17]"
+    },
+        
+    {
+    "title":"Safari HTML Reference",
+    "url":"https://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariHTMLRef/Introduction.html#//apple_ref/doc/uid/TP40002049",
+    "time":"[2010-08-17]"
+    },
+        
+    {
+    "title":"Webkit DOM Reference",
+    "url":"http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/WebKitDOMRef/index.html#//apple_ref/doc/uid/TP40006089",
+    "time":"[2010-08-28]"
+    },
+        
+    {
+    "title":"Webkit DOMWindow",
+    "url":"http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/WebKitDOMRef/DOMWindow_idl/Classes/DOMWindow/index.html",
+    "time":"[2010-08-28]"
+    },
+
+    {
+    "title":"Webkit DOMWindow Additions Class Ref",
+    "url":"http://developer.apple.com/safari/library/documentation/DataManagement/Reference/DOMWindowAdditionsReference/DOMWindowAdditions/DOMWindowAdditions.html#//apple_ref/doc/uid/TP40009352-CH9-DontLinkElementID_1",
+    "time":"[2010-08-29]"
+    },
+
+    {
+    "title":"Safari Web Content Guide[HOW TO]",
+    "url":"http://developer.apple.com/safari/library/documentation/AppleApplications/Reference/SafariWebContent/HandlingEvents/HandlingEvents.html#//apple_ref/doc/uid/TP40006511-SW16",
+    "time":"[2010-08-29]"
+    }
+
+]
+
+,"PHP Programming": [
+        
+    {
+    "url":"https://github.com/MichaelHu/mcphp",
+    "title":"MCPHP Framework",
+    "time":"[2013-09-24]"
+    }
+        
+    ,{
+    "url":"http://www.php-open.com/",
+    "title":"PHP开源大全",
+    "time":"[2010-06-26]"
+    }
+        
+    ,{
+    "// href":"http://cn.php.net/manual/en/langref.php",
+    "url":"http://www.php.net/manual/en/",
+    "title":"PHP Manual",
+    "time":"[2008-10-01]"
+    }
+
+    ,{
+    "url":"http://www.phpunit.de/manual/current/en/automating-tests.html",
+    "title":"PHPUnit Manual",
+    "time":"[2009-04-27]"
+    }
+
+    ,{
+    "url":"http://www.ibm.com/developerworks/cn/opensource/os-php-dbmistake/index.html",
+    "title":"五个常见 PHP 数据库问题",
+    "time":"[2010-03-20]"
+    }
+
+    ,{
+    "url":"http://www.smarty.net/",
+    "title":"Smarty: template engine",
+    "time":"[2010-05-18]"
+    }
+
+    ,{
+    "url":"web/smarty3_rc3_readme.html",
+    "title":"Smarty 3.0 RC3 ReadMe",
+    "time":"[2010-11-03]"
+    }
+
+]
+
+,"C/C++ Programming": [
+
+    {
+    "url":"http://www.cplusplus.com/reference/",
+    "title":"C++ Reference (C & C++)",
+    "time":"[2009-08-15]"
+    },
+
+    {
+    "url":"http://docs.huihoo.com/boost/1-33-1/libs/regex/doc/install.html",
+    "title":"Boost Regex 安装",
+    "time":"[2009-09-26]"
+    },
+
+    {
+    "url":"http://msdn.microsoft.com/en-us/library/60k1461a.aspx",
+    "title":"MSDN VS C++",
+    "time":"[2010-02-07]"
+    },
+
+    {
+    "url":"http://www.bedaux.net/cpp2html/",
+    "title":"C++ 2 HTML",
+    "time":"[2010-03-13]"
+    },
+
+    {
+    "url":"http://www.cppreference.com/",
+    "title":"C++ Reference",
+    "time":"[2008-10-09]"
+    }
+
+]
+
+,"Javascript Libs": [
+
+    {
+    "url":"http://jquery.com/",
+    "title":"jQuery",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://zeptojs.com/",
+    "title":"Zepto.JS",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://backbonejs.org/",
+    "title":"BACKBONE.JS",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://underscorejs.org/",
+    "title":"UNDERSCORE.JS",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://cubiq.org/iscroll-4",
+    "title":"iScroll-4",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"https://github.com/MichaelHu/rocket",
+    "title":"Rocket.JS",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://seajs.org",
+    "title":"SeaJS",
+    "time":"[2013-09-24]"
+    }
+
+]
+
+,"Web Programming": [
+        
+    {
+    "url":"http://www.html5rocks.com/en/",
+    "title":"HTML5ROCKS",
+    "time":"[2013-09-24]"
+    }
+        
+    ,{
+    "url":"http://caniuse.com/",
+    "title":"Can I use html5 features",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://www.demo2do.com/prototype/reference/",
+    "title":"prototype.js解读",
+    "time":"[2009-02-10]"
+    }
+
+    ,{
+    "url":"http://msdn.microsoft.com/en-us/library/ms535874(VS.85).aspx",
+    "title":"XMLHttpRequest (MSDN)",
+    "time":"[2009-03-12]"
+    }
+        
+    ,{
+    "url":"http://docs.google.com/Doc?docid=0AY9ZDF5b54GVZGY3cXBrZzJfOTdncGc4YjZneA&hl=en",
+    "title":"How To Create an IE-Only Stylesheet",
+    "time":"[2010-04-05]"
+    }
+        
+    ,{
+    "url":"http://www.w3.org/2008/webapps/wiki/KeyCode_and_charCode",
+    "title":"KeyCode and charCode",
+    "time":"[2009-03-18]"
+    }
+
+    ,{
+    "url":"http://msdn.microsoft.com/en-us/library/ms533050(vs.85).aspx",
+    "title":"IE HTML/DHTML Reference (MSDN)",
+    "time":"[2009-03-18]"
+    }
+
+    ,{
+    "url":"https://developer.mozilla.org/En",
+    "title":"Mozilla Developer Center",
+    "time":"[2009-03-27]"
+    }
+
+    ,{
+    "url":"http://www.web-caching.com/",
+    "title":"Web Caching Related",
+    "time":"[2009-05-02]"
+    }
+
+    ,{
+    "url":"http://my.safaribooksonline.com/home",
+    "title":"Safari Books Online",
+    "time":"[2009-05-02]"
+    }
+
+    ,{
+    "url":"web/onreadystatechange%20of%20script%20object%20under%20IE.html",
+    "title":"IE\"s onreadystatechange Event",
+    "time":"[2009-05-07]"
+    }
+
+    ,{
+    "url":"http://blog.morrisjohns.com/illumination_on_javascript_prototypes.html",
+    "title":"Illumination on JavaScript Prototypes",
+    "time":"[2010-05-09]"
+    }
+
+]
+
+,"Web Programming Tools": [
+
+    {
+    "url":"http://www.scalora.org/projects/uriencoder/",
+    "title":"Data URI Encoder",
+    "time":"[2010-09-20]"
+    }
+
+    ,{
+    "url":"http://jsonlint.com",
+    "title":"JSONLint",
+    "time":"[2013-09-24]"
+    }
+
+    ,{
+    "url":"http://tohtml.com/",
+    "title":"Online Syntax Highlighting",
+    "time":"[2010-08-15]"
+    }
+
+    ,{
+    "url":"http://kangax.github.com/html-minifier/",
+    "title":"HTML Minifier (ver. 0.42)",
+    "time":"[2010-04-05]"
+    }
+
+    ,{
+    "url":"http://developer.yahoo.com/yui/grids/builder/",
+    "title":"YUI: CSS Grid Builder",
+    "time":"[2010-03-18]"
+    }
+
+    ,{
+    "url":"web/getcode.php",
+    "title":"Get Code",
+    "time":"[2008-08-31]"
+    }
+
+]
+
+,"URI Tools": [
+
+    {
+    "title":"[!走你] Google Results Filter"
+    ,"time":"[2013-04-19]"
+    ,"url":"javascript:(function()%7Bvar%20h3s=document.getElementById(%22ires%22).getElementsByTagName(%22h3%22),h3,links,link,p,tip;for(var%20i=0;i%3Ch3s.length;i++)%7Bh3=h3s%5Bi%5D;p=h3.parentNode;p.style.position=%22relative%22;links=h3.getElementsByTagName(%22a%22);for(var%20j=0;j%3Clinks.length;j++)%7Blink=links%5Bj%5D;tip=document.createElement(%22div%22);with(tip.style)%7Bwidth=%2250px%22;height=%2226px%22;top=%220%22;left=%22-55px%22;backgroundColor=%22yellow%22;position=%22absolute%22;zIndex=%221000%22;borderRadius=%224px%22;border=%221px%20solid%20green%22;textAlign=%22center%22%7Dtip.innerHTML=%5B'%3Ca%20target=%22_blank%22%20href=%22',/google%5B%5E%5C/%5D+%5C/url%5C?.+&url=(%5B%5E&%5D+)/i.test(link.href)?decodeURIComponent(RegExp.$1):link.href,'%22%20style=%22',%22display:block;%22,%22width:100%25;%22,%22height:100%25;%22,%22text-decoration:none;%22,%22color:green;%22,%22font:normal%2012px/26px%20normal;%22,'%22%3E%5Cu8D70%5Cu4F60%3C/a%3E'%5D.join(%22%22);p.appendChild(tip)%7D%7D%7D)();"
+    ,"target":"_blank"
+    }
+	
+    ,{
+    "title":"[!走你] Google Results Filter ( for ie 6)"
+    ,"time":"[2013-04-19]"
+    ,"url":"javascript:(function()%7Bvar%20a=document.createElement(%22script%22);a.src=%22http://258i.com/webtools/google-results/main.js%22;a.charset=%22utf-8%22;document.getElementsByTagName(%22head%22)%5B0%5D.appendChild(a)%7D)();"
+    ,"target":"_blank"
+    }
+
+]
+
+,"W3C Related": [
+	
+    {
+    "url":"http://www.w3schools.com/media/media_mimeref.asp",
+    "title":"MIME Reference",
+    "time":"[2010-09-14]"
+    }
+        
+    ,{
+    "url":"web/rfc/rfc2616_HTTP1.1.txt",
+    "title":"RFC2616(HTTP1.1 Related)",
+    "time":"[2008-09-27]"
+    }
+        
+    ,{
+    "url":"http://www.w3.org/Protocols/rfc2109/rfc2109",
+    "title":"RFC2109(Cookie Related)",
+    "time":"[2009-04-29]"
+    }
+
+    ,{
+    "url":"http://www.w3schools.com/wap/wml_reference.asp",
+    "title":"WML Reference (W3C)",
+    "time":"[2010-06-24]"
+    }
+
+    ,{
+    "url":"http://www.w3schools.com/xhtml/default.asp",
+    "title":"XHTML Reference (W3C)",
+    "time":"[2010-06-24]"
+    }
+
+    ,{
+    "url":"http://xhtml.com/en/xhtml/reference/",
+    "title":"XHTML Reference",
+    "time":"[2010-06-24]"
+    }
+
+    ,{
+    "url":"http://www.w3.org/TR/cssom-view/#the-elementview",
+    "title":"CSSOM View Module (W3C)",
+    "time":"[2009-03-12]"
+    }
+
+    ,{
+    "url":"http://www.w3.org",
+    "title":"W3C Home Page",
+    "time":"[2009-03-12]"
+    }
+
+    ,{
+    "url":"http://www.w3schools.com/jsref",
+    "title":"W3C Javascript Reference",
+    "time":"[2008-09-28]"
+    }
+        
+    ,{
+    "url":"http://www.w3schools.com/css/",
+    "title":"W3C CSS Reference",
+    "time":"[2008-10-08]"
+    }
+        
+    ,{
+    "url":"http://www.w3schools.com/tags/default.asp",
+    "title":"W3C HTML Reference",
+    "time":"[2008-09-28]"
+    }
+
+    ,{
+    "url":"http://www.w3schools.com/php/php_ref_array.asp",
+    "title":"W3C PHP Reference",
+    "time":"[2008-10-03]"
+    }
+
+]
+        
+
+,"Effects with JS & CSS": [
+
+    {
+    "url":"http://css-tricks.com/examples/Circulate/",
+    "title":"Circulate with JQuery",
+    "time":"[2010-05-16]"
+    },
+        
+    {
+    "url":"http://preloaders.net/",
+    "title":"Ajax Preloaders",
+    "time":"[2010-04-19]"
+    },
+        
+    {
+    "url":"http://www.ajaxload.info/#preview",
+    "title":"Ajax Loading GIF Generator",
+    "time":"[2010-04-12]"
+    }
+
+]
+
+,"Windows Programming": [
+
+    {
+    "url":"http://msdn.microsoft.com/en-us/library/aa383749(VS.85).aspx",
+    "title":"Windows32 API Ref",
+    "time":"[2009-02-20]"
+    },
+
+    {
+    "url":"http://msdn.microsoft.com/en-us/library/aa367088(v=VS.85).aspx",
+    "title":"MIDL Language Reference",
+    "time":"[2010-06-01]"
+    },
+
+    {
+    "url":"http://www.vckbase.com/vckbase/columnist/yangfeng/",
+    "title":"COM组件设计与应用",
+    "time":"[2009-02-20]"
+    },
+
+    {
+    "url":"http://www.wintellect.com/books.aspx",
+    "title":"Windows核心编程（C & C++）",
+    "time":"[2009-08-30]"
+    },
+
+    {
+    "url":"http://www.functionx.com/win32/index.htm",
+    "title":"Win32 Programming",
+    "time":"[2009-12-06]"
+    },
+
+    {
+    "url":"http://msdn.microsoft.com/en-us/library/ty9hx077%28v=VS.90%29.aspx",
+    "title":"Visual C++ Reference",
+    "time":"[2010-04-04]"
+    },
+
+    {
+    "url":"http://msdn.microsoft.com/en-us/library/ee663263(VS.85).aspx",
+    "title":"Component Development",
+    "time":"[2010-03-14]"
+    }
+
+]
+
+,"VIM Related": [
+        
+    {
+    "url":"http://vim-taglist.sourceforge.net/manual.html",
+    "title":"Taglist Manual",
+    "time":"[2010-06-02]"
+    },
+        
+    {
+    "url":"http://vimdoc.sourceforge.net/htmldoc/help.html",
+    "title":"VIM Manual",
+    "time":"[2010-06-02]"
+    }
+
+]
+
+
+,"Character Encoding": [
+            
+    {
+    "url":"http://www.utf8-chartable.de/",
+    "title":"Unicode & UTF8",
+    "time":"[2010-07-01]"
+    },
+
+    {
+    "url":"http://ff.163.com/newflyff/gbk-list/",
+    "title":"GBK",
+    "time":"[2010-07-01]"
+    }
+
+]
+
+,"MySQL Related": [
+
+    {
+    "url":"http://dev.mysql.com/doc/",
+    "title":"MySQL Manual",
+    "time":"[2010-03-20]"
+    },
+
+    {
+    "url":"http://dev.mysql.com/doc/refman/5.0/en/multiple-unix-servers.html",
+    "title":"Running Multiple Servers on Unix",
+    "time":"[2010-03-20]"
+    }
+
+]
+
+,"Lighttpd Related": [
+
+    {
+    "url":"http://redmine.lighttpd.net/wiki/lighttpd/Docs",
+    "title":"Lighttpd Online Docs",
+    "time":"[2011-11-30]"
+    }
+
+]
+
+,"Apache Related": [
+
+    {
+    "url":"http://httpd.apache.org/docs/2.2/",
+    "title":"Apache HTTP Server Version 2.2 Documentation",
+    "time":"[2009-04-27]"
+    },
+
+    {
+    "url":"http://tomcat.apache.org/tomcat-5.5-doc/index.html",
+    "title":"The Apache Tomcat 5.5 Servlet/JSP Container",
+    "time":"[2010-05-16]"
+    },
+
+    {
+    "url":"http://tomcat.apache.org/tomcat-5.5-doc/architecture/startup/serverStartup.txt",
+    "title":"Tomcat 5 Startup Sequence",
+    "time":"[2010-05-22]"
+    },
+
+    {
+    "url":"http://ant.apache.org/manual/index.html",
+    "title":"Apache Ant Manual",
+    "time":"[2010-05-22]"
+    },
+
+    {
+    "url":"http://logging.apache.org/log4j/1.2/manual.html",
+    "title":"Apache Logging Service log4j",
+    "time":"[2010-06-01]"
+    },
+
+    {
+    "url":"http://httpd.apache.org/docs/2.2/platform/windows.html",
+    "title":"Apache on Windows Platform",
+    "time":"[2010-08-27]"
+    },
+
+    {
+    "url":"http://httpd.apache.org/docs/2.2/urlmapping.html",
+    "title":"Mapping URLs to Filesystem Locations",
+    "time":"[2010-09-03]"
+    },
+
+    {
+    "url":"http://httpd.apache.org/mod_fcgid/",
+    "title":"Apache mod_fcgid",
+    "time":"[2011-07-04]"
+    }
+
+]
+
+,"Review Board": [        
+
+    {
+    "url":"http://www.reviewboard.org/docs/manual/dev/admin/installation/linux/",
+    "title":"Review Board Installation",
+    "time":"[2011-04-02]"
+    }
+
+]
+
+,"Regular Expression": [
+
+    {
+    "url":"http://www.troubleshooters.com/codecorn/littperl/perlreg.htm",
+    "title":"Perl Regular Expressions",
+    "time":"[2008-10-08]"
+    }
+]
+
+,"Perl Programming": [
+
+    {
+    "url":"http://perldoc.perl.org/index-language.html",
+    "title":"Perl Language Reference",
+    "time":"[2009-04-15]"
+    }
+
+]
+
+,"Python Programming": [
+
+    {
+    "url":"http://docs.python.org/reference/",
+    "title":"Python Language Reference",
+    "time":"[2010-05-23]"
+    }
+
+]
+
+,"Java Related": [
+
+    {
+    "url":"http://java.sun.com/j2se/1.5.0/docs/",
+    "title":"J2SE 1.5 Reference",
+    "time":"[2010-05-12]"
+    },
+
+    {
+    "url":"http://wenson.javaeye.com/blog/65292",
+    "title":"JDK Linux下安装",
+    "time":"[2010-05-12]"
+    },
+
+    {
+    "url":"http://www.docjar.com/",
+    "title":"DocJar",
+    "time":"[2010-05-13]"
+    }
+
+]
+
+
+,"Desing Patterns": [
+
+    {
+    "url":"http://baike.baidu.com/view/31.htm",
+    "title":"MVC(Model-View-Controller)",
+    "time":"[2009-04-29]"
+    }
+
+]
+
+,"Batch File Programming": [
+
+    {
+    "url":"http://www.askapache.com/windows/advanced-batch-scripting.html",
+    "title":"Advanced Windows Batch File Scripting",
+    "time":"[2010-12-02]"
+    }
+
+]
+
+}
