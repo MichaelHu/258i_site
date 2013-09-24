@@ -34,7 +34,7 @@ ol
 #container, #footer{width:980px; margin:5px auto 0;}
 
 #header {
-    padding-bottom:15px;
+    height:105px;
     border-bottom:2px solid #bbb;
 }
 
