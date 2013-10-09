@@ -162,6 +162,8 @@ ol
 <a href="/template/slider/slider.html" target="_blank">slider</a>
 <a href="/template/howtorocket/howtorocket.html" target="_blank">howtorocket</a>
 <a href="/template/mynotes/mynotes.html" target="_blank">mynotes</a>
+<a href="/template/mytoolkit/mytoolkit.html" target="_blank">mytoolkit</a>
+<!--a href="/template/slider/slider.html#outline/%E5%89%8D%E7%AB%AFMVC%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5" target="_blank">前端MVC入门与实践</a-->
                     </div>
                 </div>
             </div>
