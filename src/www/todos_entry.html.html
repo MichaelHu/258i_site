@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<title>~/docs/mydocs/docroot/slider/front_end_mvc/todos_entry.html.html</title>
+<meta name="Generator" content="Vim/7.3">
+<meta name="plugin-version" content="vim7.3_v6">
+<meta name="syntax" content="html">
+<meta name="settings" content="use_css,number_lines">
+<style type="text/css">
+<!--
+pre { font-family: monospace; color: #000000; background-color: #ffffff; }
+body { font-family: monospace; color: #000000; background-color: #ffffff; }
+.lnr { color: #af5f00; }
+.Special { color: #c000c0; }
+.Underlined { color: #c000c0; text-decoration: underline; }
+.Title { color: #c000c0; }
+.PreProc { color: #c000c0; }
+.Constant { color: #c00000; }
+.Type { color: #008000; }
+.Statement { color: #af5f00; }
+.Identifier { color: #008080; }
+.Comment { color: #0000c0; }
+-->
+</style>
+</head>
+<body>
+<pre>
+<span class="lnr"> 1 </span><span class="Comment">&lt;!DOCTYPE html&gt;</span>
+<span class="lnr"> 2 </span><span class="Identifier">&lt;</span><span class="Statement">html</span><span class="Identifier"> </span><span class="Type">lang</span><span class="Identifier">=</span><span class="Constant">&quot;en&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr"> 3 </span>
+<span class="lnr"> 4 </span><span class="Identifier">&lt;</span><span class="Statement">head</span><span class="Identifier">&gt;</span>
+<span class="lnr"> 5 </span><span class="PreProc">  </span><span class="Identifier">&lt;</span><span class="Statement">meta</span><span class="Identifier"> </span><span class="Type">charset</span><span class="Identifier">=</span><span class="Constant">&quot;utf-8&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr"> 6 </span><span class="PreProc">  </span><span class="Identifier">&lt;</span><span class="Statement">title</span><span class="Identifier">&gt;</span><span class="Title">Backbone.js Todos</span><span class="Identifier">&lt;/</span><span class="Statement">title</span><span class="Identifier">&gt;</span>
+<span class="lnr"> 7 </span><span class="PreProc">  </span><span class="Identifier">&lt;</span><span class="Statement">link</span><span class="Identifier"> </span><span class="Type">rel</span><span class="Identifier">=</span><span class="Constant">&quot;stylesheet&quot;</span><span class="Identifier"> </span><span class="Type">href</span><span class="Identifier">=</span><span class="Constant">&quot;./css/todos.css&quot;</span><span class="Identifier">/&gt;</span>
+<span class="lnr"> 8 </span><span class="Identifier">&lt;/</span><span class="Statement">head</span><span class="Identifier">&gt;</span>
+<span class="lnr"> 9 </span>
+<span class="lnr">10 </span><span class="Identifier">&lt;</span><span class="Statement">body</span><span class="Identifier">&gt;</span>
+<span class="lnr">11 </span>
+<span class="lnr">12 </span>  <span class="Identifier">&lt;</span><span class="Statement">div</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;todoapp&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">13 </span>
+<span class="lnr">14 </span>    <span class="Identifier">&lt;</span>header<span class="Identifier">&gt;</span>
+<span class="lnr">15 </span>      <span class="Identifier">&lt;</span><span class="Statement">h1</span><span class="Identifier">&gt;</span><span class="Title">Todos</span><span class="Identifier">&lt;/</span><span class="Statement">h1</span><span class="Identifier">&gt;</span>
+<span class="lnr">16 </span>      <span class="Identifier">&lt;</span><span class="Statement">input</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;new-todo&quot;</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text&quot;</span><span class="Identifier"> placeholder=</span><span class="Constant">&quot;What needs to be done?&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">17 </span>    <span class="Identifier">&lt;/</span>header<span class="Identifier">&gt;</span>
+<span class="lnr">18 </span>
+<span class="lnr">19 </span>    <span class="Identifier">&lt;</span>section<span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;main&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">20 </span>      <span class="Identifier">&lt;</span><span class="Statement">input</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;toggle-all&quot;</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;checkbox&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">21 </span>      <span class="Identifier">&lt;</span><span class="Statement">label</span><span class="Identifier"> </span><span class="Type">for</span><span class="Identifier">=</span><span class="Constant">&quot;toggle-all&quot;</span><span class="Identifier">&gt;</span>Mark all as complete<span class="Identifier">&lt;/</span><span class="Statement">label</span><span class="Identifier">&gt;</span>
+<span class="lnr">22 </span>      <span class="Identifier">&lt;</span><span class="Statement">ul</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;todo-list&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">ul</span><span class="Identifier">&gt;</span>
+<span class="lnr">23 </span>    <span class="Identifier">&lt;/</span>section<span class="Identifier">&gt;</span>
+<span class="lnr">24 </span>
+<span class="lnr">25 </span>    <span class="Identifier">&lt;</span>footer<span class="Identifier">&gt;</span>
+<span class="lnr">26 </span>      <span class="Identifier">&lt;</span><span class="Statement">a</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;clear-completed&quot;</span><span class="Identifier">&gt;</span>Clear completed<span class="Identifier">&lt;/</span><span class="Statement">a</span><span class="Identifier">&gt;</span>
+<span class="lnr">27 </span>      <span class="Identifier">&lt;</span><span class="Statement">div</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;todo-count&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">div</span><span class="Identifier">&gt;</span>
+<span class="lnr">28 </span>    <span class="Identifier">&lt;/</span>footer<span class="Identifier">&gt;</span>
+<span class="lnr">29 </span>
+<span class="lnr">30 </span>  <span class="Identifier">&lt;/</span><span class="Statement">div</span><span class="Identifier">&gt;</span>
+<span class="lnr">31 </span>
+<span class="lnr">32 </span>  <span class="Identifier">&lt;</span><span class="Statement">div</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;instructions&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">33 </span>    Double-click to edit a todo.
+<span class="lnr">34 </span>  <span class="Identifier">&lt;/</span><span class="Statement">div</span><span class="Identifier">&gt;</span>
+<span class="lnr">35 </span>
+<span class="lnr">36 </span>  <span class="Identifier">&lt;</span><span class="Statement">div</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;credits&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">37 </span>    Created by
+<span class="lnr">38 </span>    <span class="Identifier">&lt;</span><span class="Statement">br</span><span class="Identifier"> /&gt;</span>
+<span class="lnr">39 </span>    <span class="Identifier">&lt;</span><span class="Statement">a</span><span class="Identifier"> </span><span class="Type">href</span><span class="Identifier">=</span><span class="Constant">&quot;<a href="http://jgn.me/">http://jgn.me/</a>&quot;</span><span class="Identifier">&gt;</span><span class="Underlined">J</span><span class="Special">&amp;eacute;</span><span class="Underlined">r</span><span class="Special">&amp;ocirc;</span><span class="Underlined">me Gravel-Niquet</span><span class="Identifier">&lt;/</span><span class="Statement">a</span><span class="Identifier">&gt;</span>.
+<span class="lnr">40 </span>    <span class="Identifier">&lt;</span><span class="Statement">br</span><span class="Identifier"> /&gt;</span>Rewritten by: <span class="Identifier">&lt;</span><span class="Statement">a</span><span class="Identifier"> </span><span class="Type">href</span><span class="Identifier">=</span><span class="Constant">&quot;<a href="http://addyosmani.github.com/todomvc">http://addyosmani.github.com/todomvc</a>&quot;</span><span class="Identifier">&gt;</span><span class="Underlined">TodoMVC</span><span class="Identifier">&lt;/</span><span class="Statement">a</span><span class="Identifier">&gt;</span>.
+<span class="lnr">41 </span>  <span class="Identifier">&lt;/</span><span class="Statement">div</span><span class="Identifier">&gt;</span>
+<span class="lnr">42 </span>
+<span class="lnr">43 </span>  <span class="Comment">&lt;!</span><span class="Comment">-- Templates --</span><span class="Comment">&gt;</span>
+<span class="lnr">44 </span>
+<span class="lnr">45 </span>  <span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text/template&quot;</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;item-template&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">46 </span><span class="Special">    &lt;div </span><span class="Statement">class</span><span class="Special">=</span><span class="Constant">&quot;view&quot;</span><span class="Special">&gt;</span>
+<span class="lnr">47 </span><span class="Special">      &lt;input </span><span class="Statement">class</span><span class="Special">=</span><span class="Constant">&quot;toggle&quot;</span><span class="Special"> type=</span><span class="Constant">&quot;checkbox&quot;</span><span class="Special"> &lt;%= done ? </span><span class="Constant">'checked=&quot;checked&quot;'</span><span class="Special"> : </span><span class="Constant">''</span><span class="Special"> %&gt; /&gt;</span>
+<span class="lnr">48 </span><span class="Special">      &lt;label&gt;&lt;%- title %&gt;&lt;/label&gt;</span>
+<span class="lnr">49 </span><span class="Special">      &lt;a </span><span class="Statement">class</span><span class="Special">=</span><span class="Constant">&quot;destroy&quot;</span><span class="Special">&gt;&lt;/a&gt;</span>
+<span class="lnr">50 </span><span class="Special">    &lt;/div&gt;</span>
+<span class="lnr">51 </span><span class="Special">    &lt;input </span><span class="Statement">class</span><span class="Special">=</span><span class="Constant">&quot;edit&quot;</span><span class="Special"> type=</span><span class="Constant">&quot;text&quot;</span><span class="Special"> value=</span><span class="Constant">&quot;&lt;%- title %&gt;&quot;</span><span class="Special"> /&gt;</span>
+<span class="lnr">52 </span><span class="Special">  </span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">53 </span>
+<span class="lnr">54 </span>  <span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">type</span><span class="Identifier">=</span><span class="Constant">&quot;text/template&quot;</span><span class="Identifier"> </span><span class="Type">id</span><span class="Identifier">=</span><span class="Constant">&quot;stats-template&quot;</span><span class="Identifier">&gt;</span>
+<span class="lnr">55 </span><span class="Special">    &lt;% </span><span class="Statement">if</span><span class="Special"> </span>(<span class="Special">done</span>)<span class="Special"> </span><span class="Identifier">{</span><span class="Special"> %&gt;</span>
+<span class="lnr">56 </span><span class="Special">      &lt;a id=</span><span class="Constant">&quot;clear-completed&quot;</span><span class="Special">&gt;Clear &lt;%= done %&gt; completed &lt;%= done == </span>1<span class="Special"> ? </span><span class="Constant">'item'</span><span class="Special"> : </span><span class="Constant">'items'</span><span class="Special"> %&gt;&lt;/a&gt;</span>
+<span class="lnr">57 </span><span class="Special">    &lt;% </span><span class="Identifier">}</span><span class="Special"> %&gt;</span>
+<span class="lnr">58 </span><span class="Special">    &lt;div </span><span class="Statement">class</span><span class="Special">=</span><span class="Constant">&quot;todo-count&quot;</span><span class="Special">&gt;&lt;b&gt;&lt;%= remaining %&gt;&lt;/b&gt; &lt;%= remaining == </span>1<span class="Special"> ? </span><span class="Constant">'item'</span><span class="Special"> : </span><span class="Constant">'items'</span><span class="Special"> %&gt; left&lt;/div&gt;</span>
+<span class="lnr">59 </span><span class="Special">  </span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">60 </span>
+<span class="lnr">61 </span>  <span class="Identifier">&lt;/</span><span class="Statement">body</span><span class="Identifier">&gt;</span>
+<span class="lnr">62 </span><span class="Identifier">&lt;/</span><span class="Statement">html</span><span class="Identifier">&gt;</span>
+<span class="lnr">63 </span>
+<span class="lnr">64 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;../lib/json2.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">65 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;../lib/jquery.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">66 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;../lib/underscore.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">67 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;../lib/backbone.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">68 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;../lib/backbone.localStorage.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">69 </span><span class="Identifier">&lt;</span><span class="Statement">script</span><span class="Identifier"> </span><span class="Type">src</span><span class="Identifier">=</span><span class="Constant">&quot;./js/todos.js&quot;</span><span class="Identifier">&gt;</span><span class="Identifier">&lt;/</span><span class="Statement">script</span><span class="Identifier">&gt;</span>
+<span class="lnr">70 </span>
+</pre>
+</body>
+</html>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44281590-1', '258i.com');
+  ga('send', 'pageview');
+
+</script>
+ 
