@@ -3,5 +3,5 @@ AddType text/cache-manifest .manifest
 </IfModule>
 
 <IfModule dir_module>
-DirectoryIndex index.html index.md.html
+DirectoryIndex index.html index.md.html index.php
 </IfModule>

@@ -155,14 +155,18 @@ ol
                     <div class="header-info-line works">
 <a href="https://github.com/MichaelHu/rocket" target="_blank">Rocket</a>
 <a href="https://github.com/MichaelHu/mcphp" target="_blank">McPHP</a>
+<a href="https://github.com/MichaelHu/fast-slides" target="_blank">Fast-Slides</a>
+<a href="https://github.com/MichaelHu/markdown" target="_blank">Markdown</a>
                     </div>
 
                     <div class="header-info-line demos">
+<a href="/fast-slides/examples/demo-readme.md.preview.html?theme=default&transition=concave" target="_blank">fast-slides</a>
 <a href="/template/hellorocket/hellorocket.html" target="_blank">hellorocket</a>
 <a href="/template/slider/slider.html" target="_blank">slider</a>
 <a href="/template/howtorocket/howtorocket.html" target="_blank">howtorocket</a>
 <a href="/template/mynotes/mynotes.html" target="_blank">mynotes</a>
 <a href="/template/mytoolkit/mytoolkit.html" target="_blank">mytoolkit</a>
+<a href="/docs" target="_blank">blog</a>
 <!--a href="/template/slider/slider.html#outline/%E5%89%8D%E7%AB%AFMVC%E5%85%A5%E9%97%A8%E4%B8%8E%E5%AE%9E%E8%B7%B5" target="_blank">前端MVC入门与实践</a-->
                     </div>
                 </div>
