@@ -91,7 +91,7 @@ RequestConfig::$logicParams = array(
         'direction' => array(
             'default'=>'1', 
             'source'=>'requestParams|direction',
-            'pattern'=>'/^\d+$/',
+            'pattern'=>'/^-?\d+$/',
         ),
 
         'context_num' => array(

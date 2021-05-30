@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+h2 {
+    padding: 0 5px;
+    font: normal normal bold 20px/26px Arial;
+}
+
+.item {
+    padding: 0 5px;
+    border: 1px solid #fff;
+    border-width: 1px 0 0;
+    font: normal small-caps normal 16px/26px Arial;
+}
+
+.yes {
+    background: green;
+    color: #fff;
+}
+
+.no {
+    background: red;
+}

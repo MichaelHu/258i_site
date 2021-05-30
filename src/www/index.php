@@ -5,7 +5,7 @@
  */
 
 // 线下开发开启MC_OFFLINE
-// define('MC_OFFLINE', 1);
+define('MC_OFFLINE', 1);
 
 if(!defined('MC_OFFLINE')){
     require_once('/home/hdm0571qh2dsm7095i7p1/others/phpui/init.php');

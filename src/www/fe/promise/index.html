@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Promise Demos</title> 
+<script src="../jquery/jquery-2.1.3.js"></script>
+<script src="./js/promise-6.1.0.js"></script>
+</head>
+<body>
+
+<div id="info"></div>
+
+
+<script>
+
+console.log = function(str){
+    $('#info').append(
+        '<div>'
+            + str
+            + '</div>'
+    );
+}
+
+</script>
+
+
+<script>
+
+// Demo 1
+
+(function(){
+
+
+function doSomething () {
+  return new Promise(function (fulfill, reject) {
+    try {
+      var ret = 24;
+      console.log('I have done something!');
+      fulfill(ret);
+    } catch (err) {
+      reject(err);
+    }
+  });
+}
+
+doSomething()
+  // fulfill
+  .then(function (ret) {
+    console.log('that\'s what I done: ' + ret);
+    return ++ret;
+  })
+  .done(function (ret) {
+    console.log('I think it\'s has increased: ' + ret);
+  });
+
+
+
+})();
+
+</script>
+
+<script>
+
+// Demo 2: jQuery Promise
+
+(function(){
+
+
+$.ajax({
+    url: './data/info.text'
+})
+.then(function(response){
+    console.log('success');
+}, function(){
+    console.log('error');
+});
+
+
+
+
+})();
+
+
+</script>
+
+
+
+
+
+<script>
+
+// Demo 3
+
+(function(){
+
+
+function doThing1 () {
+    return new Promise(function(resolve, reject){
+        setTimeout(function(){
+            var r = Math.random();
+            if ( r < 0.5 ) {
+                resolve(r);
+            }
+            else {
+                reject(r);
+            }
+        }, 1000);
+    });
+}
+
+
+function doThing2 () {
+    return new Promise(function(resolve, reject){
+        setTimeout(function(){
+            var r = Math.random();
+            if ( r < 0.5 ) {
+                resolve(r);
+            }
+            else {
+                reject(r);
+            }
+        }, 1000);
+    });
+}
+
+
+doThing1()
+.then(
+    function(value){
+        console.log('do thing 1 ok. [ ' + value + ' ]');
+        return doThing2();
+    }
+    , function(value){
+        console.log('do thing 1 fail. [ ' + value + ' ]');
+        return 2;
+    }
+)
+.then(
+    function(value){
+        console.log('do thing 2 ok. [ ' + value + ' ]');
+    }
+    , function(value){
+        console.log('do thing 2 fail. [ ' + value + ' ]');
+    }
+)
+.then(
+    function(value){
+        console.log('do thing 3 ok. [ ' + value + ' ]');
+    }
+    , function(value){
+        console.log('do thing 3 fail. [ ' + value + ' ]');
+    }
+);
+
+
+
+
+
+})();
+
+
+</script>
+
+</body>
+</html>
+
+

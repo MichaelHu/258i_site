@@ -1801,7 +1801,7 @@ rocket.subpageview.notes_lines
 
         me.model.fetch({
             reqdata: {
-                line: lineID - me.contextNum - 1 
+                line: lineID - 1 
                 ,context_num: me.contextNum
                 ,direction: -1
             }
